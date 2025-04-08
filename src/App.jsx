@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';  // Asegúrate de importar el componente
+import Navbar from './Navbar';
+import Body from './Body';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <h1>¡Hola, mundo!</h1>
+      <Body cardTitle={'Showcases'} />
     </div>
   );
 }

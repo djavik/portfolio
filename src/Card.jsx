@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ title, description, imageSrc })=>{
     return(
-        <div>
+        <div className='Card'>
             <img src={imageSrc} alt={title} />
             <h3>{title}</h3>
             <p>{description}</p>
