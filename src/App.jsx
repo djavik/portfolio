@@ -5,10 +5,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Navbar />
-      <h1>¡Hola, mundo!</h1>
-      <Body cardTitle={'Showcases'} />
+      <MainContent />
     </div>
   );
 }
