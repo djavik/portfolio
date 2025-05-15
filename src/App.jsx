@@ -1,13 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar';
-import MainContent from './MainContent';
-import './App.css';
+import Header from './components/Header';
+import Home from './pages/Home';
+import './css/App.css';
 
 function App() {
   return (
     <div className='app'>
-      <Navbar />
-      <MainContent />
+      <Home />
     </div>
   );
 }
