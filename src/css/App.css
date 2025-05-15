@@ -1,37 +1,69 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
+body, .parallax-section {
+    background: radial-gradient(circle at top left, #07afb0, #000992);
+}
+body{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-content{
+  top: 350px;
+  position: relative;
+}
+.parallax-section{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+/* Intro */
+.intro{
+  position: fixed;
+}
 /* Cards */
 .cards-container {
   display: flex;
   gap: 20px;
 }
 
-.card {
-  width: 200px;
-  padding: 20px;
+.Card {
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
-
-.card img {
+.Card img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.card h3 {
+.Card h3 {
   margin-top: 10px;
   font-size: 1.2em;
 }
 
-.card p {
+.Card p {
   font-size: 1em;
-  color: #555;
+  text-align: left;
+  color: white;
+}
+.app.scrolled .name{
+  font-size: 24pt;
+}
+.social-network{
+  width: fit-content;
+}
+.social-network > a{
+  margin-right: 20px;
 }
 /* end Cards */

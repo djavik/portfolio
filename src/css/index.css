@@ -59,6 +59,14 @@ button:focus-visible {
     width: 200px;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    float: left;
+}
+.app {
+    top: 70px;
+    position: relative;
 }
 
 @media (prefers-color-scheme: light) {

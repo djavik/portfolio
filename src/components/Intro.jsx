@@ -3,7 +3,7 @@ import SocialNetwork from './SocialNetwork'
 
 export const Intro = () => {
   return (
-    <>
+    <div className='intro'>
         <h1 className='name'>
             David Sanzh Khakim
         </h1>
@@ -14,6 +14,6 @@ export const Intro = () => {
             Modern, efficient, and clean web experiences - built with 9 years of front-end experience
         </p>
         <SocialNetwork />
-    </>
+    </div>
   )
 }

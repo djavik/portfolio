@@ -1,9 +1,19 @@
 /* Navbar.css */
+header {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
 .navbar {
-    background-color: #333;
-    padding: 10px;
+    /* background-color: #333; */
+    width: 80%;
+    float: left;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
   }
-  
   .navbar ul {
     list-style-type: none;
     padding: 0;
@@ -22,4 +32,14 @@
   .navbar ul li a:hover {
     text-decoration: underline;
   }
-  
+  .humburer{
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #00fffb;
+    float: left;
+  }
+  .name, .title, .description {
+    text-align: left;
+    color: white;
+  }
